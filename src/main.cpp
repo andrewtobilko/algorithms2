@@ -1,11 +1,11 @@
 #include <iostream>
-#include "JohnsonTrotterAlgorithm.h"
+#include "algorithms/permutations/JohnsonTrotterAlgorithm.h"
 
 int main() {
 
-    Algorithm::JohnsonTrotterAlgorithm algorithm;
+    Algorithm::Permutations::JohnsonTrotterAlgorithm algorithm;
 
-    std::cout << algorithm.to_string() << std::endl;
+    std::cout << algorithm.get_input_data() << std::endl;
 
     return 0;
 }

@@ -5,9 +5,11 @@
 #ifndef ALGORITHMS_JOHNSONTROTTERALGORITHM_H
 #define ALGORITHMS_JOHNSONTROTTERALGORITHM_H
 
-namespace Algorithm {
+#include "../Algorithm.h"
 
-    class JohnsonTrotterAlgorithm {
+namespace Algorithm::Permutations {
+
+    class JohnsonTrotterAlgorithm : public Algorithm {
 
     private:
         int n;
@@ -16,8 +18,7 @@ namespace Algorithm {
 
         virtual ~JohnsonTrotterAlgorithm();
 
-        virtual std::string to_string();
-
+        virtual std::string get_input_data();
     };
 
 }

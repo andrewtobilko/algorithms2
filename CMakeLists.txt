@@ -3,5 +3,5 @@ project(algorithms)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES src/main.cpp src/JohnsonTrotterAlgorithm.cpp src/JohnsonTrotterAlgorithm.h)
+set(SOURCE_FILES src/main.cpp src/algorithms/permutations/JohnsonTrotterAlgorithm.cpp src/algorithms/permutations/JohnsonTrotterAlgorithm.h src/algorithms/Algorithm.h)
 add_executable(algorithms ${SOURCE_FILES})
